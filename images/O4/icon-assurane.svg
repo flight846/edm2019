@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="55px" viewBox="0 0 56 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon-assurane</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design-latest-20190816" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="edm-design-o3" transform="translate(-486.000000, -1153.000000)">
+            <g id="Group" transform="translate(202.000000, 0.000000)">
+                <g id="5.-Why-" transform="translate(0.000000, 1063.000000)">
+                    <g id="2-columns-1-copy-4" transform="translate(218.000000, 90.000000)">
+                        <g id="product-01" transform="translate(0.615385, 0.000000)">
+                            <g id="image" transform="translate(66.000000, 0.000000)">
+                                <g id="icon-assurane">
+                                    <rect id="Rectangle" fill="#156DB3" fill-rule="nonzero" x="0" y="0" width="54.4670103" height="54.4670103"></rect>
+                                    <path d="M13.6139175,8.51082474 L40.8474227,8.51082474" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                                    <path d="M13.6139175,15.3206186 L40.8474227,15.3206186" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                                    <path d="M13.6139175,22.1247423 L40.8474227,22.1247423" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                                    <path d="M27.2164948,49.7835052 C21.5797742,49.7835052 17.0103093,45.2140402 17.0103093,39.5773196 C17.0103093,33.9405989 21.5797742,29.371134 27.2164948,29.371134 C32.8532155,29.371134 37.4226804,33.9405989 37.4226804,39.5773196 C37.4226804,45.2140402 32.8532155,49.7835052 27.2164948,49.7835052" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <polyline id="Path" stroke="#156DB3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="22.1247423 41.2726804 24.6819588 43.8298969 32.3365979 35.3190722"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
