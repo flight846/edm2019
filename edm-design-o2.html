@@ -26,17 +26,8 @@
 		<!--<![endif]-->
 		<style type="text/css">
 			@media only screen and (max-width: 420px) {
-				.icon-color-top { width: 272px!important; height: 22px!important;}
-				.icon-color-bottom { width: 272px!important; height: 80px!important;}
-				.icon-grid-top { width: 100px!important; height: 60px!important; padding-right: 10px; display: block; }
-				.icon-grid-bottom { width: 100px!important; height: 22px!important; padding-right: 10px; display: block; }
-				.no-height-mb{
-					height: auto !important;
-				}	
-				.m-txt-ctr { text-align: center!important; }
-				.desktop-only { display: none; }
+				.pt-30 { padding-top: 30px!important; }
 			}
-
 			@media only screen and (max-width:600px) and (min-width: 310px) {
 				.full-div-mb ,
 				.full-table-mb ,
@@ -64,25 +55,65 @@
                     background-size: cover!important;
                     width: 412px !important;
 					max-width: 412px!important;
-                    height: 130px !important; 
+                    height: 168px !important; 
                 }
                 img[id=bigimage] {display: none !important; }
-				
+				span[id=icon-bulb-m] {
+                    display:block;
+                    background-image: url(http://www.decision-science.com/aviva/2019/O2/icon-bulb-m.png) !important;
+                    background-repeat: no-repeat !important;
+                    width: 100% !important;
+    				height: 105px !important;
+					background-position: center!important;
+                    background-size: cover!important;
+				}
+                span[id=icon-umbrella-m] {
+                    display:block;
+                    background-image: url(http://www.decision-science.com/aviva/2019/O2/icon-umbrella-m.png) !important;
+                    background-repeat: no-repeat !important;
+                    width: 100% !important;
+    				height: 94px !important;
+					background-position: center!important;
+                    background-size: cover!important;
+				}
+				span[id=icon-heart-m] {
+                    display:block;
+                    background-image: url(http://www.decision-science.com/aviva/2019/O2/icon-heart-m.png) !important;
+                    background-repeat: no-repeat !important;
+                    width: 100% !important;
+    				height: 94px !important;
+					background-position: center!important;
+                    background-size: cover!important;
+				}
+                span[id=imagehead] {
+                    display:block;
+                    background-image: url(http://www.decision-science.com/aviva/2019/edm/images/20190829-masthead-banner/2.hero-image-o2-m.jpg) !important;
+                    background-repeat: no-repeat !important;
+                    background-position: left center !important;
+                    background-size: cover!important;
+                    width: 412px !important;
+					max-width: 412px!important;
+                    height: 168px !important; 
+                }
+                img[id=bigimage], img[id=icon-bulb], img[id=icon-umbrella], img[id=icon-heart] {display: none !important; }
 				.full-td-mb img{
 					width: 100%;
+				}
+				.no-height-mb{
+					height: auto !important;
 				}
 				.th-tr th{
 					border-right: 0px;
 					border-left: 0px;
 					border-bottom: 0px;
 				}
+				.desktop-only { display: none; }
                 .width-0 { width: 0px!important; }
                 .h77 { height: auto; }
                 .w-30 { width:30%; }                
                 .w-33 { width:33%; }                
+				.m-txt-ctr { text-align: center!important; }
 				.h-30 { height: 30px!important; }
-				.m-title-lh { line-height: 1.2!important; margin: 10px 0 20px!important; }
-				.m30-d50 { height: 30px!important; }
 			}
 		</style>
 
@@ -150,7 +181,6 @@
 				.width-0, .mobile-only  { display: none; width:0px; }
 				.h-30 { height: 30px!important; }
 				.h77 { height: 68px!important; }
-				.m30-d50 { height: 70px!important; }
 			}
 		</style>
 	</head>
@@ -200,11 +230,9 @@
 																	<!-- <a href="#" target="_blank">
 																		<img src="http://www.decision-science.com/aviva/2019/edm/images/20190829-masthead-banner/2.hero-image-o2.jpg" alt="aviva-banner" width="100%">
 																	</a> -->
-																	<a target="_blank" href="#">
-                                                                        <span id="imagehead">
-                                                                            <img id="bigimage" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-masthead-banner/2.hero-image-o2.jpg" alt="aviva-banner" style="display: block;">
-                                                                        </span>
-                                                                    </a>
+																	<span id="imagehead">
+																		<img id="bigimage" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-masthead-banner/2.hero-image-o2.jpg" alt="aviva-banner" style="display: block;">
+																	</span>
 																</td>
 															</tr>
 														</tbody>
@@ -281,7 +309,7 @@
 																						<tr>
 																							<td width="5%">&nbsp;</td>
 																							<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 5px;width:80%;" align="center" valign="middle" bgcolor="#004fb6" width="90%">
-																								<a href="https://google.com" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:80%;" target="_blank">Find out more</a>
+																								<a href="#" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:80%;" target="_blank">Find out more</a>
 																							</td>
 																							<td width="5%">&nbsp;</td>
 																						</tr>
@@ -324,7 +352,7 @@
 												<td class="full-td-mb" style="width: 620px;" >
 													<div style="cursor:auto;color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1.5;text-align:center;">
 														<table style="width: 620px; background-color: #e5edf8" class="full-table-mb">
-															<tr><td style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;height: 30px;" align="left"> &nbsp;</td></tr>
+															
 															<tr>
 																<td class="no-mb" style="width: 26px;">&nbsp;</td>
 																<td class="padding-mb" style="text-align: center;">
@@ -351,52 +379,43 @@
 																			<tr>
 																				<td class="full-td-mb" width="180px" style="text-align: left; vertical-align: top; ">
 																					<table id="icon-bulb-m" role="presentation" cellpadding="0" cellspacing="0">
-																						<tr style="line-height: 0px;">
-																							<td style="padding: 0px;" class="full-td-mb">
-																								<table style="width: 100%;" align="left" border="0">
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#e5edf8" style="background-color: #e5edf8;width: 100px; height: 52px;" width="100px" height="52px">&nbsp;</td>
-																										<td align="right" bgcolor="#e5edf8" style="background-color: #e5edf8;">
-																											<img class="icon-grid-top" width="80px" height="52px" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-bulb-top.png" style="display: block; width: 80px; height: 52px;" alt="">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#ffde00" style="background-color: #ffde00; width:100px; height: 22px;" width="100px" height="22px">&nbsp;</td>
-																										<td align="right" bgcolor="#ffde00" style="background-color: #ffde00;">
-																											<img class="icon-grid-bottom" width="80px;" height="22px" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-bulb-btm.png" style="display: block; height: 22px;" alt="">
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																						<tr>
-																							<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px; line-height: 22px; color: #004FB6;font-weight: bold;">
-																									Choose the right cover for you
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 20px; color: #004FB6;height: 120px; " class="no-height-mb">
-																									Try our Lifestyle Maintenance calculator to help you decide how much life insurance you might need.
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<table style="width:100%;" align="left" border="0">
-																									<tbody>
-																										<tr>
-																											<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 0px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
-																												<a href="https://google.com" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Use the calculator</a>
-																											</td>
-																										</tr>
-																										<tr>
-																											<td height="20px" >
-																												&nbsp;
-																											</td>
-																										</tr>
-																									</tbody>
-																								</table>
-																							</td>
-																						</tr>
+																						<tbody>
+																							<tr style="line-height: 0px;">
+																								<td style="padding: 0px;" class="full-td-mb">
+																									<span id="icon-bulb-m">
+																										<img id="icon-bulb" src="http://www.decision-science.com/aviva/2019/O2/icon-bulb.png" style="display: block;">
+																									</span>
+																								</td>
+																							</tr>
+																							<tr>
+																								<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px; line-height: 22px; color: #004FB6;font-weight: bold;">
+																										Choose the right cover for you
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 20px; color: #004FB6;height: 130px; " class="no-height-mb">
+																										Try our Lifestyle Maintenance calculator to help you decide how much life insurance you might need.
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<table style="width:100%;" align="left" border="0">
+																										<tbody>
+																											<tr>
+																												<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 0px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
+																													<a href="#" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Use the calculator</a>
+																												</td>
+																											</tr>
+																											<tr>
+																												<td height="20px" >
+																													&nbsp;
+																												</td>
+																											</tr>
+																										</tbody>
+																									</table>
+																								</td>
+																							</tr>
+																						</tbody>
 																					</table>
 																							
 																				</td>
@@ -413,52 +432,43 @@
 																			<tr>
 																				<td width="180px" class="full-td-mb" style="text-align: left; vertical-align: top; ">
 																					<table role="presentation" cellpadding="0" cellspacing="0">
-																						<tr style="line-height: 0px;">
-																							<td style="padding: 0px;" class="full-td-mb">
-																								<table style="width: 100%;" align="left" border="0">
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#e5edf8" style="background-color: #e5edf8;width: 100px; height: 52px;" width="100px" height="52px">&nbsp;</td>
-																										<td align="right" bgcolor="#e5edf8" style="background-color: #e5edf8;">
-																											<img class="icon-grid-top" width="80px;" height="52px" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-umbrella-top.png" style="display:block; height:52px;" alt="">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#ffde00" style="background-color: #ffde00; width:100px; height: 22px;" width="100px" height="22px">&nbsp;</td>
-																										<td align="right" bgcolor="#ffde00" style="background-color: #ffde00;">
-																											<img class="icon-grid-bottom" width="80px;"height="22px" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-umbrella-btm.png" style="display: block; height: 22px;" alt="">
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																						<tr>
-																							<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px;line-height: 22px; color: #004FB6;font-weight: bold;">
-																									Cover to help protect your family
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px;line-height: 20px; color: #004FB6;height: 120px; " class="no-height-mb">
-																									Life insurance can be th simple way to help provide security for your loved ones.
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<table style="width:100%;" align="left" border="0">
-																									<tbody>
-																										<tr>
-																											<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 6px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
-																												<a href="https://google.com" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Find out more</a>
-																											</td>
-																										</tr>
-																										<tr>
-																											<td height="20px">
-																												&nbsp;
-																											</td>
-																										</tr>
-																									</tbody>
-																								</table>
-																							</td>
-																						</tr>
+																						<tbody>
+																							<tr style="line-height: 0px">
+																								<td style="padding: 0px;" class="full-td-mb" >
+																									<span id="icon-umbrella-m">
+																										<img id="icon-umbrella" src="http://www.decision-science.com/aviva/2019/O2/icon-umbrella.png" style="display: block;">
+																									</span>
+																								</td>
+																							</tr>
+																							<tr>
+																								<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px;line-height: 22px; color: #004FB6;font-weight: bold;">
+																										Cover to help protect your family
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px;line-height: 20px; color: #004FB6;height: 130px; " class="no-height-mb">
+																										Life insurance can be th simple way to help provide security for your loved ones.
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<table style="width:100%;" align="left" border="0">
+																										<tbody>
+																											<tr>
+																												<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 6px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
+																													<a href="#" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Find out more</a>
+																												</td>
+																											</tr>
+																											<tr>
+																												<td height="20px">
+																													&nbsp;
+																												</td>
+																											</tr>
+																										</tbody>
+																									</table>
+																								</td>
+																							</tr>
+																						</tbody>
 																					</table>
 																							
 																				</td>
@@ -475,52 +485,43 @@
 																			<tr>
 																				<td width="180px" class="full-td-mb" style="text-align: left; vertical-align: top; ">
 																					<table role="presentation" cellpadding="0" cellspacing="0">
-																						<tr style="line-height: 0px;">
-																							<td style="padding: 0px;" class="full-td-mb">
-																								<table style="width: 100%;" align="left" border="0">
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#e5edf8" style="background-color: #e5edf8;width: 100px; height: 52px;" width="100px" height="52px">&nbsp;</td>
-																										<td align="right" bgcolor="#e5edf8" style="background-color: #e5edf8;" width="80px" height="52px">
-																											<img class="icon-grid-top" width="80px;"src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-beart-top.png" style="display: block; height: 52px;" alt="">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td class="icon-color-top" bgcolor="#ffde00" style="background-color: #ffde00; width:100px; height: 22px;" width="100px" height="22px">&nbsp;</td>
-																										<td align="right" bgcolor="#ffde00" style="background-color: #ffde00;" width="80px" height="22px">
-																											<img class="icon-grid-bottom" width="80px;" height="22px" src="http://www.decision-science.com/aviva/2019/edm/images/20190829-iconimages/img-beart-btm.png" style="display: block; height: 22px;" alt="">
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																						<tr>
-																							<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px;line-height: 22px; color: #004FB6;font-weight: bold;">
-																								Life insurance with critical illness cover
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
-																								<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px;line-height: 20px; color: #004FB6;height: 120px; " class="no-height-mb">
-																									Insurance that plays out if you die or are diagnoised with a critical illness that meets our policy definition.
-																								</p>
-																								<!--[if mso | IE]> </td></tr></table><![endif]-->
-																								<table style="width:100%;" align="left" border="0">
-																									<tbody>
-																										<tr>
-																											<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 6px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
-																												<a href="https://google.com" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Find out more</a>
-																											</td>
-																										</tr>
-																										<tr>
-																											<td height="20px" >
-																												&nbsp;
-																											</td>
-																										</tr>
-																									</tbody>
-																								</table>
-																							</td>
-																						</tr>
+																						<tbody>
+																							<tr style="line-height: 0px">
+																								<td style="padding: 0px;" class="full-td-mb" >
+																									<span id="icon-heart-m">
+																										<img id="icon-heart" src="http://www.decision-science.com/aviva/2019/O2/icon-heart.png" style="display: block;">
+																									</span>
+																								</td>
+																							</tr>
+																							<tr>
+																								<td width="180px" class="full-td-mb" style="background-color:#ffde00; padding-left: 20px; padding-right: 20px;text-align: left; vertical-align: top;" bgcolor="#ffde00">
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 100px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px;line-height: 22px; color: #004FB6;font-weight: bold;">
+																									Life insurance with critical illness cover
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<!--[if mso | IE]> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td style="vertical-align:top;height: 150px"><![endif]-->
+																									<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px;line-height: 20px; color: #004FB6;height: 130px; " class="no-height-mb">
+																										Insurance that plays out if you die or are diagnoised with a critical illness that meets our policy definition.
+																									</p>
+																									<!--[if mso | IE]> </td></tr></table><![endif]-->
+																									<table style="width:100%;" align="left" border="0">
+																										<tbody>
+																											<tr>
+																												<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 6px;width:100%;" align="center" valign="middle" bgcolor="#004fb6" width="100%">
+																													<a href="#" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">Find out more</a>
+																												</td>
+																											</tr>
+																											<tr>
+																												<td height="20px" >
+																													&nbsp;
+																												</td>
+																											</tr>
+																										</tbody>
+																									</table>
+																								</td>
+																							</tr>
+																						</tbody>
 																					</table>
 																								
 																				</td>
@@ -532,7 +533,7 @@
 																<td class="no-mb" style="width: 26px;">&nbsp;</td>
 															</tr>
 															<tr>
-																<td class="" style="width: 26px; height: 40px;">&nbsp;</td>
+																<td class="" style="width: 26px; height: 20px;">&nbsp;</td>
 															</tr>
 														</table>
 													</div>	
@@ -556,7 +557,7 @@
                                                                         <table height="210px" width="100%" align="center" class="no-height-mb">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img alt="" height="auto" src="http://www.decision-science.com/aviva/2019/O2/1566273737.jpg" style="border:none;border-radius:0px;display:block;outline:none;text-decoration:none;width:80px;height:auto; margin: 0 auto; padding-top: 20px;" width="80px;">
+                                                                                    <img class="pt-30" alt="" height="auto" src="http://www.decision-science.com/aviva/2019/O2/1566273737.jpg" style="border:none;border-radius:0px;display:block;outline:none;text-decoration:none;width:80px;height:auto; margin: 0 auto; padding-top: 20px;" width="80px;">
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -594,7 +595,7 @@
                                                                                                     &nbsp;
                                                                                                 </td>
                                                                                                 <td style="border-radius:5px;color:#fff;cursor:auto;padding:9px 26px;width:200px;" align="center" valign="middle" bgcolor="#ffde00" width="200px">
-                                                                                                    <a href="https://google.com" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Join now</a>
+                                                                                                    <a href="#" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Join now</a>
                                                                                                 </td>
                                                                                                 <td style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;width:184px;" align="left">
                                                                                                     &nbsp;
@@ -728,7 +729,7 @@
 																									<table width="200px">
 																										<tr>
 																											<td style="border-radius:5px;color:#fff;cursor:auto;padding:9px 6px;width:200px;" align="center" valign="middle" bgcolor="#004fb6" width="200px">
-																												<a href="https://google.com" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">View more</a>
+																												<a href="#" style="text-decoration: none; background: #004fb6; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;width:100%;" target="_blank">View more</a>
 																											</td>
 																										</tr>
 																									</table>
@@ -762,43 +763,36 @@
 											<!-- /-------------/ -->
 
 											<tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0">
-												<td class="full-td-mb" style="width: 620px;">
-													<div style="cursor:auto;color:#000000;font-family: 'Source Sans Pro', sans-serif;font-size:16px;line-height:1.5;text-align:center;">
-														<table style="width: 620px; background-color: #ffde00" class="full-table-mb">
+												<td class="full-td-mb" style="width: 620px;" >
+													<div style="cursor:auto;color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1.5;text-align:center;">
+														<table style="width: 620px; background-color: #87378e" class="full-table-mb">
 													
-															<tbody><tr>
-																<td width="26px">&nbsp;</td>
+															<tr>
+																<td width="26px"></td>
 																<td width="568">
-																	<!--[if mso | IE]><table> <tr> <td style="vertical-align:top;width: 191px"><![endif]-->
-																	<div class="full-div-mb" style="width: 35%; float: left;">
+																	<!--[if mso | IE]><table> <tr> <td style="vertical-align:top;width: 200px"><![endif]-->
+																	<div class="full-div-mb" style="width: 40%; float: left;">
 																		<table width="100%" style="padding-right: 10px;">
-																			<tbody>
-																				<tr>
-																					<td class="m30-d50" style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;height: 59px;" align="left">
-																						&nbsp;
-																					</td>
-																				</tr>
-																				<tr>
-																					<td align="center">
-																						<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 22px; line-height: 24px;color: #004fb6; font-weight: bold; text-align: left;">"I have diabetes, but diabetes doesn't have me"</p>
-																						<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: normal; color: #004fb6; text-align: left;">Get inspired to take control and manage diabetes with this short clip.</p>
-																					</td>
-																				</tr>
-																				<tr>
-																					<td height="20px" class="no-mb">&nbsp;</td>
-																				</tr>
-																			</tbody>
+																			<tr>
+																				<td align="center">
+																					<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 22px; color: #fff; font-weight: bold; text-align: left;">"I have diabetes, but diabetes doesn't have me"</p>
+																					<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; color: #fff; text-align: left;">Get inspired to take control and manage diabetes with this short clip.</p>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td height="20px" class="no-mb">&nbsp;</td>
+																			</tr>
 																		</table>
 																	</div>
-																	<!--[if mso | IE]></td> <td style="vertical-align:top;padding-top: 20px; padding-bottom: 20px; width: 375px"><![endif]-->
-																	<div class="full-div-mb" style="width: 65%; float: left;">
-																		<a href=""><img src="http://www.decision-science.com/aviva/2019/O2/img-video.jpg" style="width: 100%; padding-top: 30px; padding-bottom: 30px;display: block;"></a>
+																	<!--[if mso | IE]></td> <td style="vertical-align:top;padding-top: 20px; padding-bottom: 20px; width: 368px"><![endif]-->
+																	<div class="full-div-mb" style="width: 60%; float: left;">
+																		<a href=""><img src="http://www.decision-science.com/aviva/2019/O2/img-video.jpg" style="width: 100%; padding-top: 20px; padding-bottom: 20px;"></a>
 																	</div>
 																	<!--[if mso | IE]></td></tr></table><![endif]-->
 																</td>
-																<td width="26px">&nbsp;</td>
+																<td width="26px"></td>
 															</tr>
-														</tbody></table>
+														</table>
 													</div>
 												</td>
 											</tr>
@@ -845,7 +839,7 @@
 																						</td>
 																						<td width="20px" style="width:20px;" class="mobile-only"></td>
 																						<td width="168px" align="right" style="width:168px;">
-																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-maturity-83x83.png" style="width:92px;">
+																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-maturity-83x83.png">
 																						</td>
 																					</tr>
 																				</table>
@@ -859,7 +853,7 @@
 																				<table width="100%">
 																					<tr>
 																						<td width="168px" align="left" style="width:168px;">
-																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-capital-guarantee-83x83.png" style="width:92px;">
+																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-capital-guarantee-83x83.png">
 																						</td>
 																						<td width="20px" style="width:20px;" class="mobile-only"></td>
 																						<td width="400px" align="left" style="width:400px;">
@@ -881,7 +875,7 @@
 																						</td>
 																						<td width="20px" style="width:20px;" class="mobile-only"></td>
 																						<td width="168px" align="right" style="width:168px;">
-																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-guaranteed-issuance-83x83.png" style="width:92px;">
+																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-img-guaranteed-issuance-83x83.png">
 																						</td>
 																					</tr>
 																				</table>
@@ -895,7 +889,7 @@
 																				<table width="100%">
 																					<tr>
 																						<td width="168px" align="left" style="width:168px;">
-																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-deals.png" style="width:92px;">
+																							<img src="http://www.decision-science.com/aviva/2019/O2/icon-deals.png">
 																						</td>
 																						<td width="20px" style="width:20px;" class="mobile-only"></td>
 																						<td width="400px" align="left" style="width:400px;">
@@ -916,7 +910,7 @@
 																							&nbsp;
 																						</td>
 																						<td style="border-radius:5px;color:#fff;cursor:auto;padding:5px 26px;width:200px;" align="center" valign="middle" bgcolor="#ffde00" width="200px">
-																							<a href="https://google.com" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Find out more</a>
+																							<a href="#" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Find out more</a>
 																						</td>
 																						<td style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;width:184px;" align="left">
 																							&nbsp;
@@ -926,7 +920,7 @@
 																			</td>
 																		</tr>
 																		<tr>
-																			<td height="40px">&nbsp;</td>
+																			<td height="20px">&nbsp;</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1035,7 +1029,7 @@
 																												<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0">        <tr>         <td style="vertical-align:top;">      <![endif]-->
 																												<p style="font-family: 'Source Sans Pro', sans-serif; font-size: 20px; color: #004fb6; font-weight: bold; line-height: 22px; text-align: left;">My MultiPay Critical Illness Plan III</p>
 																												<!--[if mso | IE]>      </td></tr><tr><td style="height: 93px; vertical-align:top;">     <![endif]-->
-																												<p class="h77" style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 1.4;color: #004fb6; text-align: left; vertical-align: top">Up to 5 lump sum payouts upon diagnosis of CI.
+																												<p class="h77" style="font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 1.4;color: #004fb6; text-align: left; vertical-align: top; height: 68px; ">Up to 5 lump sum payouts upon diagnosis of CI.
 																												</p>
 																												<!--[if mso | IE]>      </td> </tr></table>  <![endif]-->
 																											</td>
@@ -1053,7 +1047,7 @@
                                                                                                                 &nbsp;
                                                                                                             </td>
                                                                                                             <td style="border-radius:5px;color:#fff;cursor:auto;padding:9px 26px;" align="center" valign="middle" bgcolor="#ffde00">
-                                                                                                                <a href="https://google.com" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Read more</a>
+                                                                                                                <a href="#" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Read more</a>
                                                                                                             </td>
                                                                                                             <td style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;width:20px;" align="left">
                                                                                                                 &nbsp;
@@ -1102,7 +1096,7 @@
                                                                                                                 &nbsp;
                                                                                                             </td>
                                                                                                             <td style="border-radius:5px;color:#fff;cursor:auto;padding:9px 26px;" align="center" valign="middle" bgcolor="#ffde00">
-                                                                                                                <a href="https://google.com" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Book now</a>
+                                                                                                                <a href="#" style="text-decoration: none; background: #ffde00; color: #004fb6; font-family: 'Source Sans Pro', sans-serif; font-size: 14px; font-weight: bold; line-height: 120%; text-transform: none; margin: 0px;" target="_blank">Book now</a>
                                                                                                             </td>
                                                                                                             <td style="word-wrap:break-word;font-size:0px;padding:0px 0px 0px 0px;width:20px;" align="left">
                                                                                                                 &nbsp;
